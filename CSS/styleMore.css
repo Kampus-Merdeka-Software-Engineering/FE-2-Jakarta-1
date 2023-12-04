@@ -114,9 +114,9 @@ main {
 }
 .box-footer{
     display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
+    justify-content: space-around;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 .box-footer h2{
@@ -124,25 +124,25 @@ main {
 }
 
 .box-footer p{
-    text-align: left;
-    /* background-color: aquamarine; */
-    /* justify-content: 50px; */
+    text-align: left; 
 }
 
-/* ini opsional di bagian kanan pojok bawah */
-/* .box-footer button{ 
-    display: flexbox;
-} */
-
-.box-footer img{
+.box .sosmed{
+    justify-content: space-around; 
+    display: flex;  
+}   
+.box .sosmed img{
     width: 20%;
-    display: flexbox;
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    background-color: #191;
+} 
 
+.tabel{
+    background-color: #5755c5;
+    margin-left: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
+
 @media only screen and (max-width: 768px) {
     nav {
       flex-wrap: wrap;
