@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+/* header {
+    background-image: linear-gradient(#fff);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px 0 20px 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    z-index: 9999; 
+}
+
+nav .navbar img {
+    width: 130px;
+    height: 70px;
+    margin-top: -20px;
+}
+
+nav h1{
+    padding-top: 5px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.navbar{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Segoe UI", sans-serif;
+    color: #191919;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(255, 68, 0, 0);
+}
+
+nav ul li a:hover {
+    color: black;
+    border-bottom: 1px solid #FEDD00;
+}
+  
+.menu-icon {
+    font-size: 28px;
+    display: none;
+}
+
+main {
+    padding-top: 7rem;
+}
+
+.filter{
+    background-color: rgb(236, 240, 240);
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-style:groove;
+    text-align: center;
+}
+
+.filter button{
+    background-color: #FEDD00;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.filter img{
+    width: 60%;
+}
+.tujuan{
+    margin: 100px;
+    margin-top: 30px;
+    margin-right: 45%;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    background-color:#FEDD00;
+    display: flex;
+
+}
+
+.tujuan img{
+    width: 40px;
+    height: 40px;
+}
+
+.keterangan-tujuan{
+    display: flex;
+}
+
+.keterangan-tujuan img{
+    width: 30px;
+    height: 30px;
+}
+
+.jadwal{
+    background-color:#FFFFFF;
+    display: flex;
+    margin: 100px;
+    margin-top: 10px;
+    margin-right: 45%;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.jadwal img{
+    width: 80px;
+}
+
+.logolionair h5{
+    text-align: center;
+}
+
+.jam1, .jam2{
+    padding-top: 10px;
+}
+
+.waktu{
+    padding: 10px;
+}
+
+.waktu img{
+    padding-top: -10px;
+}
+.waktu h5{
+    text-align: center;
+}
+.pesawatlogo img{
+    width: 100%;
+    padding-top: 20px;
+}
+.harga{
+    padding-top: 20px;
+    /* padding-left: 150px; */
+    margin-left: 180px;
+}
+.harga button{
+    background-color: #FEDD00;
+    margin-left: 70px;
+    border: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hargadiskon{
+    display: flex;
+}
+.harga h5{
+    text-decoration: line-through;
+    margin-left: 50px;
+}
+.clear button{
+    padding: 10px;
+    background-color: #FEDD00;
+    border: 0px;
+    margin-top: 10px;
+    margin-left: 46.5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* .keterangan{
+    background-color: #E5E5E5;
+    padding: 10px;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -50%;
+}
+
+.note1{
+    background-color: #FEDD00;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.note2{
+    background-color: white;
+    margin-top: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+.note3{
+    background-color: #DDC100;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+}
+.down {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    color: #FEDD00;
+}
+.down img{
+    width: 30px;
+    height: 30px;
+}
+.bawahnyadown{
+    margin-bottom: 10px;
+}
+.note2 p{
+    padding: 10px;
+} */
+
+/* .jadwalnya{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 20px;
+} */
+
+/* .waktupesan img{
+    width: 100px;
+}
+.waktupesan h5{
+    text-align: center;
+}
+.pesawatnya{
+    padding-top: 10px;
+} */
+/* .garis img{
+    width: 100%;
+} */
+.keterangan{
+    /* background-color: #E5E5E5; */
+    padding: 20px;
+    padding-top: 80px;
+    padding-right: 30px;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -58%;
+}
+.note1{
+    background-color: #FEDD00;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.note2{
+    background-color: white;
+    margin-top: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+.note3{
+    background-color: #FEDD00;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+}
+.down {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    color: #FEDD00;
+}
+.down img{
+    width: 30px;
+    height: 30px;
+}
+.bawahnyadown{
+    margin-bottom: 10px;
+}
+
+.note2 p{
+    padding: 10px;
+}
+
+.jadwalnya{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.waktupesan img{
+    width: 100px;
+}
+.waktupesan h5{
+    text-align: center;
+}
+.pesawatnya{
+    padding-top: 10px;
+}
+.garis img{
+    width: 100%;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+.adult, .adult1, .adult2, .totalamount{
+    display: flex;
+    align-items: center;
+}
+.adult h5, .adult1 h5, .adult2 h5, .totalamount h4{
+    padding-left: 40px;
+}
+
+.garis3 img{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.adult p{
+    padding-left: 68px ;
+}
+.adult1 p{
+    padding-left: 10px;
+}
+.adult1 p1{
+    padding-left: 90px;
+}
+.adult2{
+    color: #FEDD00;
+}
+.adult2 p{
+    padding-left: 20px;
+}
+.adult2 p1{
+    padding-left: 105px;
+}
+
+.totalamount{
+    background-color: #FEDD00;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.totalamount p{
+    padding-left: 20px;
+}
+.totalamount h4{
+    padding-left: 55px;
+
+}
+.continue button{
+    margin-top: 10px;
+    background-color: #FEDD00;
+    padding: 10px;
+    margin-left: 83%;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+.adult, .adult1, .adult2, .totalamount{
+    display: flex;
+    align-items: center;
+}
+.adult h5, .adult1 h5, .adult2 h5, .totalamount h4{
+    padding-left: 40px;
+}
+
+.garis3 img{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.adult p{
+    padding-left: 110px ;
+}
+.adult1 p{
+    padding-left: 50px;
+}
+.adult1 p1{
+    padding-left: 130px;
+}
+.adult2{
+    color: #FEDD00;
+}
+.adult2 p{
+    padding-left: 60px;
+}
+.adult2 p1{
+    padding-left: 145px;
+}
+.totalamount{
+    background-color: #DDC100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.totalamount h3{
+    padding-left: 100px;
+
+}
+.continue button{
+    margin-top: 10px;
+    background-color: #FEDD00;
+    padding: 10px;
+    margin-left: 83%;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box-footer h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box-footer p{
+    text-align: left; 
+}
+
+.box .sosmed{
+    justify-content: space-around; 
+    display: flex;  
+}   
+.box .sosmed img{
+    width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    .tujuan{
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .jadwal{
+        margin: 5px 3px;
+    }
+    .jadwal .pesawatlogo img{
+        width: 50px;
+    }
+    .jadwal .logolionair img{
+        margin-top:7px;
+        width: 75px;
+        height: 40px;
+    }
+    .keterangan{
+        position:relative;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .box-footer p{
+        font-size: 12px;
+
+    }
+    .box-footer h2{
+        font-size: 20px;
+
+    }
+    .box-footer{
+        margin: 5px 0px;
+
+    }
+    .box .sosmed img{
+        width: 15%;
+    }
+    .box .sosmed{
+        margin-top: 3px;
+        justify-content: space-evenly;
+        
+    }
+}

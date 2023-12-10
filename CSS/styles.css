@@ -130,7 +130,6 @@ main {
     justify-content: space-around;
 }
 .form-box2 input{
-    /* background-color: #6d3a3a; */
     background-color: #ebeaeae7;
     padding: 10px;
     border: 0px;
@@ -167,7 +166,6 @@ main {
 }
 .form-box .boximg img{
     width: 40px;
-    /* background-color: #191919; */
     margin-top: 20px;
     margin-left: -20px;
     margin-right: -20px;
@@ -297,6 +295,7 @@ main {
 
 .box-footer h2{
     text-align: center;
+    padding-top: 10px;
 }
 
 .box-footer p{
@@ -310,14 +309,6 @@ main {
 .box .sosmed img{
     width: 20%;
 } 
-
-.tabel{
-    background-color: #5755c5;
-    margin-left: 500px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
 
 @media only screen and (max-width: 768px) {
     nav {
@@ -347,10 +338,109 @@ main {
       align-items: center;
     }
     
-    .container-box{
+    /* .container-box{
         display: none;
-    }
+    } */
+    
     .container1{
         display: none;
     }
+    .box-footer p{
+        font-size: 12px;
+
+    }
+    .box-footer h2{
+        font-size: 20px;
+
+    }
+    .box-footer{
+        margin: 5px 0px;
+
+    }
+    .box .sosmed img{
+        width: 20%;
+    }
+    .box .sosmed{
+        margin-top: 3px;
+        justify-content: space-evenly;
+        
+    }
+    .hero .container {
+        width: 350px;
+        height: 200px;
+        margin-left: 40%;
+        margin-top: -10%;
+        position: absolute;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .hero .container .container-box{
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 5px rgba(92, 83, 83, 0.479);
+    }
+
+    .judul-table h3{
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    
+    .judul-table h4{
+        padding-top: 15px;
+        color:#FEDD00 ;
+        font-size: 10px;
+    }
+    .hero .container .container-box .form-box{
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .hero .container .container-box .form-box2{
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .form-box2 input{
+        width: 100px;
+        height: 25px;
+        margin: 2px 0;
+        padding: 10px;
+        border: 0px;
+        margin-left: 0%;
+        margin-right: 20%;
+        border-radius: 5px
+    }
+    .container-box select {
+        width: 80px;
+        height: 25px;
+        margin: 2px 0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-style: none;
+        background-color: #f1f1f1;
+    }
+    .form-box .boximg img{
+        width: 20px;
+        margin-top: 25px;
+        margin-left: -13px;
+    }
+    .container-box label {
+        font-size: 12px;
+    }
+    .container-box input[type=submit] {
+        width: 100px;
+        padding: 0px 0px;
+        margin-top: 18px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-style: none;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #FEDD00;
+    }
+
+
 }

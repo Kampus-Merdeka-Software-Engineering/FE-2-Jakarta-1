@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+/* header {
+    background-image: linear-gradient(#fff);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px 0 20px 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    z-index: 9999; 
+}
+
+nav .navbar img {
+    width: 130px;
+    height: 70px;
+    margin-top: -20px;
+}
+
+nav h1{
+    padding-top: 5px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.navbar{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Segoe UI", sans-serif;
+    color: #191919;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(255, 68, 0, 0);
+}
+
+nav ul li a:hover {
+    color: black;
+    border-bottom: 1px solid #FEDD00;
+}
+  
+.menu-icon {
+    font-size: 28px;
+    display: none;
+}
+
+main {
+    padding-top: 7rem;
+}
+.badanhalaman{
+    background-color:white ;
+    margin: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.costpayment{
+    background-color: #DDC100;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.departure{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.jadwalflight{
+    padding: 10px;
+}
+
+.jadwal{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+.itemjam{
+    text-align: center;
+}
+.jadwal .itemjam img{
+    width: 100%;
+}
+.logoitem img{
+    padding-top: 5px;
+}
+
+.pricing{
+    padding: 10px;
+    padding-bottom: 0px;
+    color: #DDC100;
+}
+
+.penumpang{
+    margin-left: 30px;
+    margin-right: 300px;
+}
+.adult, .adult1, .adult2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.adult1, .adult2{
+    padding-top: 10px;
+}
+.garis img{
+    width: 100%;
+}
+.total{
+    background-color: #DDC100;
+    border-radius: 10px;
+}
+.totalamount{
+    background-color: #DDC100;
+    margin-left: 30px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.costpayment1{
+    background-color: #DDC100;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.order{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 40px;
+}
+.badanhalaman .inputan{
+    margin: 40px;
+}
+.badanhalaman .inputan input{
+    padding-left: 30px;
+    padding-top: 10px;
+    margin: 10px;
+    background-color: #191919;
+}
+
+.badanhalaman .inputan label{
+    color: #FEDD00;
+}
+
+.keterangan1{
+    margin: 50px;
+    border-style:groove;
+    border-color: #b8b6b6;
+}
+.keterangan2{
+    margin: 50px;
+    border-style:groove;
+    border-color: #b8b6b6;
+
+}
+
+button{
+    background-color: #DDC100;
+    padding: 15px;
+    margin-left: 85%;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.box-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: white;
+}
+
+.box-footer h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box-footer p{
+    text-align: left; 
+}
+
+.box .sosmed{
+    justify-content: space-around; 
+    display: flex;  
+}   
+.box .sosmed img{
+    width: 20%;
+} 
+
+@media only screen and (max-width: 768px) {
+    .badanhalaman{
+        background-color:white ;
+        margin: 5%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+    }
+    .totalamount{
+        background-color: #DDC100;
+        margin-left: 10px;
+        margin-right: 200px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .box-footer p{
+        font-size: 12px;
+
+    }
+    .box-footer h2{
+        font-size: 20px;
+
+    }
+    .box-footer{
+        margin: 5px 0px;
+
+    }
+    .box .sosmed img{
+        width: 15%;
+    }
+    .box .sosmed{
+        margin-top: 3px;
+        justify-content: space-evenly;
+        
+    }
+}
