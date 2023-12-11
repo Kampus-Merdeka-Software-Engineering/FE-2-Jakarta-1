@@ -115,8 +115,8 @@ main {
     padding-top: 5px;
     background-color:#FEDD00;
     display: flex;
+    border-radius: 10px;
 }
-
 .tujuan img{
     width: 40px;
     height: 40px;
@@ -146,7 +146,7 @@ main {
     width: 80px;
 }
 
-.logolionair h5{
+.content .logolionair h5{
     text-align: center;
 }
 
@@ -203,11 +203,11 @@ main {
     padding: 20px;
     /* padding-top: 80px;
     padding-right: 30px; */
+
     position: absolute;
     margin-left: 65%;
     margin-top: -54%;
 }
-
 .note1{
     background-color: #FEDD00;
     padding: 10px;
@@ -226,8 +226,120 @@ main {
     margin: 0px;
     border-radius: 10px;
 }
+.down {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    color: #FEDD00;
+}
+.down img{
+    width: 30px;
+    height: 30px;
+}
+.btnup {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    color: #FEDD00;
+}
+.btnup img{
+    width: 30px;
+    height: 30px;
+}
+.bawahnyadown{
+    margin-bottom: 10px;
+}
+
 .note2 p{
     padding: 10px;
+}
+
+.jadwalnya{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.waktupesan img{
+    width: 100px;
+}
+.waktupesan h5{
+    text-align: center;
+}
+.pesawatnya{
+    padding-top: 10px;
+}
+.garis img{
+    width: 100%;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+.adult, .adult1, .adult2, .totalamount{
+    display: flex;
+    align-items: center;
+}
+.adult h5, .adult1 h5, .adult2 h5, .totalamount h4{
+    padding-left: 40px;
+}
+
+.garis3 img{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.adult p{
+    padding-left: 68px ;
+}
+.adult1 p{
+    padding-left: 10px;
+}
+.adult1 p1{
+    padding-left: 90px;
+}
+.adult2{
+    color: #FEDD00;
+}
+.adult2 p{
+    padding-left: 20px;
+}
+.adult2 p1{
+    padding-left: 105px;
+}
+
+.totalamount{
+    background-color: #FEDD00;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.totalamount p{
+    padding-left: 20px;
+}
+.totalamount h4{
+    padding-left: 55px;
+
+}
+.continue button{
+    margin-top: 10px;
+    background-color: #FEDD00;
+    padding: 10px;
+    margin-left: 83%;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.continue a {
+    text-decoration: none;
+    font-family: "Segoe UI", sans-serif;
+    color: black;
+    font-weight: bold;
 }
 .box-footer{
     display: flex;

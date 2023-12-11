@@ -261,14 +261,12 @@ main {
 } */
 .keterangan{
     /* background-color: #E5E5E5; */
-    width: 450px;
     padding: 20px;
-    /* padding-top: 80px;
-    padding-right: 30px; */
-
+    padding-top: 80px;
+    padding-right: 30px;
     position: absolute;
     margin-left: 65%;
-    margin-top: -54%;
+    margin-top: -58%;
 }
 .note1{
     background-color: #FEDD00;
@@ -297,7 +295,6 @@ main {
 .down img{
     width: 30px;
     height: 30px;
-    cursor: pointer;
 }
 .bawahnyadown{
     margin-bottom: 10px;
